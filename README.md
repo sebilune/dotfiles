@@ -1,5 +1,3 @@
-# Dotfiles
-
 ## palettes.json
 My current windows terminal settings:
 ```
