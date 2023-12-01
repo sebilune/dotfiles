@@ -1,0 +1,49 @@
+{
+    "workbench.colorCustomizations": {
+      "terminal.foreground": "#DCDFE4",
+      "terminalCursor.foreground": "#FFFFFF",
+      "terminalCursor.background": "#1F1F1F",
+      "terminal.ansiBlack": "#121212",
+      "terminal.ansiRed": "#FF5564",
+      "terminal.ansiGreen": "#7AFF8E",
+      "terminal.ansiYellow": "#FDF68B",
+      "terminal.ansiBlue": "#85A0FF",
+      "terminal.ansiMagenta": "#FF8FAB",
+      "terminal.ansiCyan": "#ADD8E6",
+      "terminal.ansiWhite": "#E3E3E3",
+      "terminal.ansiBrightBlack": "#666666",
+      "terminal.ansiBrightRed": "#FF5564",
+      "terminal.ansiBrightGreen": "#7AFF8E",
+      "terminal.ansiBrightYellow": "#FDF68B",
+      "terminal.ansiBrightBlue": "#85A0FF",
+      "terminal.ansiBrightMagenta": "#FF8FAB",
+      "terminal.ansiBrightCyan": "#ADD8E6",
+      "terminal.ansiBrightWhite": "#E3E3E3"
+    },
+
+  "schemes": [
+    {
+      "background": "#0F0F0F",
+      "black": "#121212",
+      "blue": "#85A0FF",
+      "brightBlack": "#666666",
+      "brightBlue": "#85A0FF",
+      "brightCyan": "#ADD8E6",
+      "brightGreen": "#7AFF8E",
+      "brightPurple": "#FF8FAB",
+      "brightRed": "#FF5564",
+      "brightWhite": "#E3E3E3",
+      "brightYellow": "#FDF68B",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#ADD8E6",
+      "foreground": "#DCDFE4",
+      "green": "#7AFF8E",
+      "name": "Simple Candy",
+      "purple": "#FF8FAB",
+      "red": "#FF5564",
+      "selectionBackground": "#FFFFFF",
+      "white": "#E3E3E3",
+      "yellow": "#FDF68B"
+    }
+  ]
+}
