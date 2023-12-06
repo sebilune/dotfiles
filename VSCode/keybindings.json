@@ -26,6 +26,7 @@
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
+
   // FILE TREE
   {
     "command": "workbench.action.toggleSidebarVisibility",
