@@ -9,10 +9,6 @@
   "explorer.confirmDragAndDrop": false,
   "settingsSync.ignoredExtensions": ["unthrottled.doki-theme"],
 
-  // Styling
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Simple Dark",
-
   // Git
   "github.copilot.enable": {
     "*": true,
@@ -149,5 +145,8 @@
 
   // Remove Ubuntu default window bar
   "window.titleBarStyle": "custom",
-  "workbench.activityBar.location": "hidden"
+
+  // Styling
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Simple Dark"
 }
