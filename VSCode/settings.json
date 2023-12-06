@@ -2,7 +2,6 @@
   // General
   "files.autoSave": "afterDelay",
   "editor.inlineSuggest.enabled": true,
- 
   "editor.mouseWheelZoom": true,
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
@@ -146,9 +145,8 @@
   "window.titleBarStyle": "custom",
 
   // Doki Settings
-  "doki.sticker.path": "/home/sebi/Pictures/Icons/Espeon-1.gif",
+  "doki.sticker.path": "/home/sebi/Pictures/Icons/Mew-1.gif",
   "doki.sticker.css": "z-index: 100; background-position: 98% 95.75%; opacity: 0.85;",/* First % is X alignment, second is Y alignment. */ 
   "doki.background.anchor": "center",
-  "doki.background.enabled": false,
-  "doki.wallpaper.enabled": false
+  "workbench.activityBar.location": "hidden"
 }
