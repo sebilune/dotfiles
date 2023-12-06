@@ -152,4 +152,5 @@
   "doki.background.anchor": "center",
   "doki.background.enabled": false,
   "doki.wallpaper.enabled": false,
+  "workbench.activityBar.location": "hidden",
 }
