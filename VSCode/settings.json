@@ -1,3 +1,5 @@
+// ~/.config/Code/User/settings.json
+
 {
   // General
   "files.autoSave": "afterDelay",
