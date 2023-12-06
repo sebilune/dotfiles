@@ -8,11 +8,11 @@
   "workbench.editor.empty.hint": "hidden",
   "explorer.confirmDragAndDrop": false,
   "settingsSync.ignoredExtensions": ["unthrottled.doki-theme"],
-  
+
   // Styling
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Simple Dark",
-  
+
   // Git
   "github.copilot.enable": {
     "*": true,
@@ -23,7 +23,7 @@
     "scss": false,
     "html": true
   },
-  
+
   //Formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.lineNumbers": "relative",
@@ -35,7 +35,7 @@
   "terminal.integrated.fontSize": 16,
   "editor.formatOnSave": false,
   "terminal.integrated.fontFamily": "Cascadia Code",
-  
+
   // Compiling
   "liveSassCompile.settings.formats": [
     {
@@ -73,7 +73,7 @@
     "terminal.ansiWhite": "#DCDFE4",
     "terminal.ansiYellow": "#FFF55A"
   },
-  
+
   // Vim
   "vim.leader": "<Space>",
   "vim.hlsearch": true,
@@ -137,16 +137,17 @@
     // toggle comment selection
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
   ],
-  
+
   // Notifications
   "liveServer.settings.donotShowInfoMsg": true,
 
-  // Remove Ubuntu default window bar
-  "window.titleBarStyle": "custom",
-
   // Doki Settings
   "doki.sticker.path": "/home/sebi/Pictures/Icons/Mew-1.gif",
-  "doki.sticker.css": "z-index: 100; background-position: 98% 95.75%; opacity: 0.85;",/* First % is X alignment, second is Y alignment. */ 
+  "doki.sticker.css": "z-index: 100; background-position: 98% 95.75%; opacity: 0.75;" /* First % is X alignment, second is Y alignment. */,
   "doki.background.anchor": "center",
+  "doki.statusbar.name": "Sofia",
+
+  // Remove Ubuntu default window bar
+  "window.titleBarStyle": "custom",
   "workbench.activityBar.location": "hidden"
 }
