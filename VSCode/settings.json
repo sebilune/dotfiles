@@ -22,7 +22,7 @@
     "html": true
   },
 
-  //Formatting
+  // Formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.lineNumbers": "relative",
   "editor.fontSize": 16,
