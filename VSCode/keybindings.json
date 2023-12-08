@@ -3,62 +3,66 @@
 [
   // NAVIGATION
   {
-    "key": "ctrl+shift+a",
-    "command": "workbench.action.terminal.focus",
+    "key": "ctrl+j", /* Toggle terminal window */
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+l", /* Focus next terminal instance */
+    "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+shift+b",
+    "key": "ctrl+h", /* Focus previous terminal instance */
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+shift+j",
-    "command": "workbench.action.togglePanel"
-  },
-  {
-    "key": "ctrl+shift+n",
+    "key": "ctrl+n", /* Create a new terminal instance */ 
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+shift+w",
+    "key": "ctrl+w",/* Close current terminal instance */ 
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
 
   // FILE TREE
   {
-    "command": "workbench.action.toggleSidebarVisibility",
-    "key": "ctrl+e"
+    "key": "ctrl+e", /* Toggle file tree */
+    "command": "workbench.action.toggleSidebarVisibility"
   },
   {
+    "key": "ctrl+e", /* Toggle file tree */
     "command": "workbench.files.action.focusFilesExplorer",
-    "key": "ctrl+e",
     "when": "editorTextFocus"
   },
   {
-    "key": "n",
+    "key": "n", /* Create new file in tree */ 
     "command": "explorer.newFile",
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
+    "key": "r", /* Rename a file or folder in tree */ 
     "command": "renameFile",
-    "key": "r",
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
-    "key": "shift+n",
+    "key": "shift+n", /* Create a new folder in tree */
     "command": "explorer.newFolder",
     "when": "explorerViewletFocus"
   },
   {
+    "key": "d", /* Delete a file or folder in tree */
     "command": "deleteFile",
-    "key": "d",
     "when": "filesExplorerFocus && !inputFocus"
   },
 
   // EXTRA
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.action.focusActivityBar"
+  },
   {
     "key": "ctrl+shift+5",
     "command": "editor.emmet.action.matchTag"
@@ -67,16 +71,12 @@
     "key": "ctrl+z",
     "command": "workbench.action.toggleZenMode"
   },
+
+  // REMOVED KEYBINDINGS
   {
     "key": "ctrl+shift+e",
-    "command": "workbench.action.focusActivityBar"
-  },
-
-  // DELETIONS
-  {
-   "key": "ctrl+shift+e",
-   "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
-   "when": "inFilesPicker && inQuickOpen"
+    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
   },
   {
     "key": "ctrl+shift+n",

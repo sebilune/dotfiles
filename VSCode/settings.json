@@ -140,15 +140,19 @@
   "liveServer.settings.donotShowInfoMsg": true,
 
   // Doki Settings
-  "doki.sticker.path": "/home/sebi/Pictures/Icons/Mew-1.gif",
+  "doki.sticker.path": "/home/sebi/Pictures/Icons/doki/mew-1.gif",
   "doki.sticker.css": "z-index: 100; background-position: 98% 95.75%; opacity: 0.75;" /* First % is X alignment, second is Y alignment. */,
   "doki.background.anchor": "center",
   "doki.statusbar.name": "Sofia",
+  "doki.background.enabled": false,
+  "doki.wallpaper.enabled": false,
 
   // Remove Ubuntu default window bar
   "window.titleBarStyle": "custom",
 
   // Styling
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Simple Dark"
+  "workbench.colorTheme": "Simple Dark",
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false
 }
