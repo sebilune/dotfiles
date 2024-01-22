@@ -25,14 +25,10 @@
   // Formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.lineNumbers": "relative",
-  "editor.fontSize": 16,
-  "editor.fontLigatures": true,
-  "editor.fontFamily": "Cascadia Code",
-  "editor.fontVariations": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "terminal.integrated.fontSize": 16,
   "editor.formatOnSave": false,
-  "terminal.integrated.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.fontVariations": true,
 
   // Compiling
   "liveSassCompile.settings.formats": [
@@ -141,9 +137,8 @@
 
   // Doki Settings
   "doki.sticker.path": "/home/sebi/Pictures/Icons/doki/mew-1.gif",
-  "doki.sticker.css": "z-index: 100; background-position: 98% 95.75%; opacity: 0.75;" /* First % is X alignment, second is Y alignment. */,
+  "doki.sticker.css": "z-index: 100; background-position: 98% 95.75%; opacity: 0.825" /* First % is X alignment, second is Y alignment. */,
   "doki.background.anchor": "center",
-  "doki.statusbar.name": "Sofia",
   "doki.background.enabled": false,
   "doki.wallpaper.enabled": false,
 
@@ -152,7 +147,19 @@
 
   // Styling
   "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "editor.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Cascadia Code",
+  "workbench.activityBar.location": "top",
   "workbench.colorTheme": "Simple Dark",
+  "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
-  "window.commandCenter": false
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "screencastMode.keyboardOptions": {
+    "showSingleEditorCursorMoves": false
+  },
+  "cmake.configureOnOpen": true
 }
